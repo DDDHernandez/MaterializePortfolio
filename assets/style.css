@@ -1,0 +1,109 @@
+body {
+    background-image: url("https://ae01.alicdn.com/kf/HTB1EZdXy4GYBuNjy0Fnq6x5lpXaM/Old-Grungy-Grey-Concrete-Backgrounds-polyester-or-Vinyl-cloth-High-quality-Computer-print-wall-photo-backdrop.jpg_640x640.jpg");
+    
+}
+nav {
+    background-color: rgba(248, 6, 6, 0.767);
+    padding-right: 60px
+}
+div#contentStyling {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+div#pageTitleBorder {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    width: 100%
+}
+
+ul.left {
+    padding: 0px 0px 0px 50px;
+}
+ul.sidenav {
+    padding-left: 30px
+}
+
+.flow-text {
+    text-indent: 5%;
+}
+
+#profilePic {
+    position: relative;
+    float: left;
+    width:220px; 
+    height:160px;
+    border:0 10;
+     padding: 5 20;
+     margin-right: 5%;
+}
+
+#PageContent {
+    border: 1px solid black;
+     background-color: #727272a8;
+     padding: 0px 20px 0px 0px;
+}
+#pageBreak {
+    border-top: 1px solid black;
+     width: 100%; 
+}
+
+.card {
+ margin-right: 105px;
+ width: 100%;
+ height: 100%;
+}
+.card .card-image .card-title {
+    color: rgb(82, 56, 0)
+}
+
+.card:hover h4.card-title{
+    color: rgba(248, 6, 6, 0.767);
+}
+.card:hover img{
+   border-left: 2px solid rgba(248, 6, 6, 0.767);
+   border-right: 2px solid rgba(248, 6, 6, 0.767);
+   line-height: 10px;
+   line-height: 10px;
+   width: 100%;
+   height: 130%;
+   box-shadow: 0px 10px 18px 5px #141414
+
+}
+
+
+.card:active img{
+    width: 100%;
+    height: 180%;
+    border: 3px solid rgb(67, 241, 67);
+}
+
+label {
+    color: black;
+}
+
+.page-footer {
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(248, 6, 6, 0.767);
+}
+
+h5 {
+    justify-self: center;
+    text-align: center;
+}
+
+.flow-text.text {
+    text-align: center;
+    color: black;
+}
+.flow-text.text a {
+    color: black;
+}
+
+.contact-info li{
+    text-align: center;
+    font-size: 18px;
+    color: black 
+
+}
