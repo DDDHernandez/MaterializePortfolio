@@ -34,31 +34,25 @@
 
 <body>
 
-
-  <nav>
-    <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo right">Dylan Hernandez</a>
-      <a href="#" class="sidenav-trigger" data-target="mobile-nav">
-        <i class="material-icons">menu</i>
-      </a>
-      <ul class="left ">
-        <li><a class="hide-on-med-and-down" href="index.html">Overview</a></li>
-        <li><a class="hide-on-med-and-down" href="portfolio.html">Portfolio</a></li>
-        <li><a class="hide-on-med-and-down" href="./assets/images/Resume.pdf">Resume</a></li>
-        <!-- Dropdown Trigger -->
-
-        <ul id="mobile-nav" class="sidenav">
-          <li class="nav-side"><a href="index.html"><b>Overview</b></a></li>
-          <li class="nav-side"><a href="portfolio.html"><b>Portfolio</b></a></li>
-          <li class="divider"></li>
-          <li class="nav-side"><a href="./assets/images/Resume.pdf"><b>Resume</b></a></li>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo right">Dylan Hernandez</a>
+        <ul class="left ">
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="./assets/images/Resume.pdf">Resume</a></li>
         </ul>
-      </ul>
-
+      </div>
+    </nav>
+  </div>
+  <div class="Jumbotron">
+    <div class="first-of-type">Dylan Hernandez</div>
+    <div class="last-of-type">
+      <span>Full-Stack Developer</span>
     </div>
-  </nav>
-
-
+  </div>
+  <br>
+  <br>
   <br>
   <br>
   <div class="container" id="PageContent">
@@ -69,7 +63,7 @@
       <br>
       <br>
       <div class="row">
-        <div class="col l12">
+        <div class="col l12" id="OverviewText">
           <img class="materialboxed" id="profilePic" src="./assets/images/Profile1.png" alt="Profile Picture">
 
 
@@ -101,7 +95,7 @@
           <p class="flow-text text">
             You can contact me with any of the following: <br />
 
-            <i class="fas fa-mobile-alt"></i>(816-809-8266)<br />
+            <i class="fas fa-mobile-alt"></i> (816-809-8266)<br />
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Dielonh@gmail.com"><u><b>Gmail</b></u> <i
                 class="fas fa-envelope"></i><br />
               <a href="https://www.linkedin.com/in/dylan-hernandez-0a6b37ab/"><u><b>LinkedIn</b></u> <i
@@ -128,12 +122,13 @@
       <div class="row">
         <div class="col s8 l6 offset-l1">
           <h4 class="white-text">Dylan Hernandez</h4>
-          <p class="grey-text text-lighten-4 flow-text">As always thanks for visiting, if you have any comments or questions
+          <p class="grey-text text-lighten-4 flow-text">As always thanks for visiting, if you have any comments or
+            questions
             please feel free to contact me!</p>
         </div>
-        <div class="col s2 l4 offset-8">
+        <div class="col s2 l4 offset-8 flow-text">
           <h4 class="white-text">Contact Me</h4>
-          <ul>
+          <ul class="FooterContact">
             <li><a class="grey-text text-lighten-3"
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=Dielonh@gmail.com">Dielonh@gmail.com</a> <i
                 class="fas fa-envelope"></i></li>
@@ -155,13 +150,6 @@
 
   <script type="text/javascript" src="js/portfolio.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $(".sidenav").sidenav();
-      $('.materialboxed').materialbox();
-    })
-
-  </script>
 </body>
 
 </html>
