@@ -32,82 +32,93 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
         <a href="index.html" class="brand-logo right">Dylan Hernandez</a>
         <ul class="left ">
+          <li><a class="hide-on-med-and-down" href="#OverviewSection">Overview</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="./assets/images/Resume.pdf">Resume</a></li>
         </ul>
       </div>
     </nav>
   </div>
+  
   <div class="Jumbotron">
     <div class="first-of-type">Dylan Hernandez</div>
     <div class="last-of-type">
       <span>Full-Stack Developer</span>
     </div>
+    <br>
+    <div class="ShiningText">
+        <p><a href="#OverviewSection" class="hide-on-med-and-down">Learn More Below</a></p>
+    </div>
   </div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <div class="container" id="PageContent">
-    <div class="mx-auto" id="contentStyling">
-      <div class="row" class="col-md-8" id="pageTitleBorder">
-        <h1 class="text-info">Overview</h1>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-        <div class="col l12" id="OverviewText">
-          <img class="materialboxed" id="profilePic" src="./assets/images/Profile1.png" alt="Profile Picture">
+ 
+  <div id="OverviewSection">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container" id="PageContent">
+      <div class="mx-auto" id="contentStyling">
+        <div class="row" class="col-md-8" id="pageTitleBorder">
+          <h1 class="text-info">Overview</h1>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col l12" id="OverviewText">
+            <img class="materialboxed" id="profilePic" src="./assets/images/Profile1.png" alt="Profile Picture">
 
 
-          <p class="flow-text">
-            Hi, my name is Dylan Hernandez, I am a certified Full Stack Web Developer from the University of Kansas. I
-            started coding a little before my course and really liked the challenges and the over all support from the
-            dev community.
-            Outside of coding, I currently reside in the Kansas City Metropolitan area with my girlfriend Meredith and
-            our dog, Luella.
-          </p>
-          <p class="flow-text">
-            Academically, I feel more comfortable on front-end development, but like learning both front-end and
-            back-end development. It's always rewarding to learn a new coding technique and
-            can be a unique skill that most people can learn. Some concepts can be harder to learn than others, but with
-            lots of practice, attention to detail and patience, I am confident about just everyone can learn it.
-          </p>
-          <p class="flow-text"> I try to dedicate my free time to learning new code from online resources, my
-            classmates, and professionals in the industry.
-            I also practice with small coding projects and I am always open to new ones.
-          </p>
-          <br>
-          <br>
-          <div id="pageBreak"></div>
-          <p class="flow-text text">
-            If you would like to see some of my work visit the portfolio tab or you can visit my <a
-              href="https://github.com/DDDHernandez?tab=repositories"><u><b>Github</b></u> <i
-                class="fab fa-github"></i></a>
-          </p>
-          <p class="flow-text text">
-            You can contact me with any of the following: <br />
+            <p class="flow-text">
+              Hi, my name is Dylan Hernandez, I am a certified Full Stack Web Developer from the University of Kansas. I
+              started coding a couple months before my course and really liked the challenges and the over all support from the
+              dev community.
+              Outside of coding, I currently reside in the Kansas City Metropolitan area with my girlfriend Meredith and
+              our dog, Luella.
+            </p>
+            <p class="flow-text">
+              Academically, I feel more comfortable on front-end development, but like learning both front-end and
+              back-end development. It's always rewarding to learn a new coding technique or skill and watch your projects progress on their difficulty.
+              That being said I believe anyone can learn the unique skill of coding. Some concepts can be harder to learn than others, but
+              for the most part
+              lots of practice, attention to detail and patience, should do the trick.
+            </p>
+            <p class="flow-text"> I try to dedicate my free time to learning new code from online resources, my
+              classmates, and professionals in the industry.
+              I also like to practice and take on small coding projects. I am always open to new ones, so feel free to contact me with any.
+            </p>
+            <br>
+            <br>
+            <div id="pageBreak"></div>
+            <p class="flow-text text">
+              If you would like to see some of my work visit the portfolio tab or you can visit my <a
+                href="https://github.com/DDDHernandez?tab=repositories"><u><b>Github</b></u> <i
+                  class="fab fa-github"></i></a>
+            </p>
+            <p class="flow-text text">
+              You can contact me with any of the following: <br />
 
-            <i class="fas fa-mobile-alt"></i> (816-809-8266)<br />
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Dielonh@gmail.com"><u><b>Gmail</b></u> <i
-                class="fas fa-envelope"></i><br />
-              <a href="https://www.linkedin.com/in/dylan-hernandez-0a6b37ab/"><u><b>LinkedIn</b></u> <i
-                  class="fab fa-linkedin"></i><br />
+              <i class="fas fa-mobile-alt"></i> (816-809-8266)<br />
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Dielonh@gmail.com"><u><b>Gmail</b></u> <i
+                  class="fas fa-envelope"></i><br />
+                <a href="https://www.linkedin.com/in/dylan-hernandez-0a6b37ab/"><u><b>LinkedIn</b></u> <i
+                    class="fab fa-linkedin"></i><br />
 
 
-          </p>
+            </p>
 
+          </div>
         </div>
       </div>
     </div>
   </div>
+
 
   <br>
   <br>
@@ -150,6 +161,9 @@
 
   <script type="text/javascript" src="js/portfolio.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script >$(document).ready(function(){
+    $('.collapsible').collapsible();
+  });</script>
 </body>
 
 </html>
