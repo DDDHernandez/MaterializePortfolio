@@ -408,12 +408,13 @@ div.ShiningText p {
 
 .Jumbotron div {
   display:inline-block;
-  overflow:visible;
+  /* overflow:visible; */
   white-space:nowrap;
 }
 
 div.first-of-type {    
   animation: showup 7s infinite;
+  margin-left: 0px;
 }
 
 div.last-of-type {
@@ -422,7 +423,7 @@ div.last-of-type {
 }
 
 div.last-of-type span {
-  margin-left: 0px;
+  margin-left: -20px;
   animation: slidein 7s infinite;
 }
 
