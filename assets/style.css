@@ -395,12 +395,12 @@ margin-top: 35px;
   background:linear-gradient(141deg, rgb(58, 58, 58) 25%, rgb(44, 44, 44) 40%, rgb(39, 39, 39) 55%);
   color:#ccc;
   font-family:'Roboto';
-  font-weight:580;
-  font-size:40px;
-  padding-top:30vh;
-  height:85vh;
+  font-weight:360;
+  font-size:44px;
+  padding-top:40vh;
+  height:95vh;
   overflow: visible;
-  margin-left: -60px;
+  margin-left: 0px;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0,0,0);
@@ -448,9 +448,9 @@ div.last-of-type span {
 @keyframes reveal {
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
-    30% {width:365px;}
+    30% {width:465px;}
     80% {opacity:1;}
-    100% {opacity:0;width:365px;}
+    100% {opacity:0;width:465px;}
 }
 
 div#OverviewText p.flow-text {
