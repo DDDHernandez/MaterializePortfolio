@@ -395,9 +395,9 @@ margin-top: 35px;
   background:linear-gradient(141deg, rgb(58, 58, 58) 25%, rgb(44, 44, 44) 40%, rgb(39, 39, 39) 55%);
   color:#ccc;
   font-family:'Roboto';
-  font-weight:360;
+  font-weight:400;
   font-size:44px;
-  padding-top:40vh;
+  padding-top:25vh;
   height:95vh;
   overflow: visible;
   margin-left: 0px;
@@ -405,8 +405,8 @@ margin-top: 35px;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0,0,0);
 }
-div.ShiningText p a {
-    padding-top: 60px;
+div.ShiningText p {
+    padding-top: 15vh;
 }
 
 .Jumbotron div {
