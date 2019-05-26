@@ -408,7 +408,7 @@ div.ShiningText p {
 
 .Jumbotron div {
   display:inline-block;
-  overflow:hidden;
+  overflow:visible;
   white-space:nowrap;
 }
 
