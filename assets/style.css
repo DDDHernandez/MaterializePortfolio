@@ -183,7 +183,7 @@ div.first-of-type {
 }
 
 div.last-of-type {
-  width:0px;
+  width:100px;
   animation: reveal 7s infinite;
 }
 
@@ -400,7 +400,7 @@ margin-top: 35px;
   padding-top:30vh;
   height:85vh;
   overflow: visible;
-  margin-left: -100px;
+  margin-left: -60px;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0,0,0);
@@ -421,12 +421,12 @@ div.first-of-type {
 }
 
 div.last-of-type {
-  width:0px;
+  width:100px;
   animation: reveal 7s infinite;
 }
 
 div.last-of-type span {
- 
+    margin-left: 0px;
   animation: slidein 7s infinite;
 }
 
