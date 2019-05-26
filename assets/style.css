@@ -215,7 +215,7 @@ div.last-of-type span {
 }
 
   
-  div.ShiningText span {
+  div.ShiningText p a {
     position: relative;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -398,14 +398,14 @@ margin-top: 35px;
   font-weight:600;
   font-size:40px;
   padding-top:30vh;
-  height:80vh;
+  height:85vh;
   overflow: visible;
   margin-left: -100px;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0,0,0);
 }
-div.ShiningText span {
+div.ShiningText p a {
     padding-top: 60px;
 }
 
