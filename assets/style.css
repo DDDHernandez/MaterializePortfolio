@@ -228,6 +228,8 @@ div.last-of-type span {
     animation: animate 7.5s linear infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    background-color: transparent;
+    color: transparent;
   }
   
   @keyframes animate {
