@@ -411,7 +411,7 @@ div.ShiningText p {
 .Jumbotron div {
   display:inline-block;
   /* overflow:visible; */
-  white-space:nowrap;
+  white-space:normal;
 }
 
 div.first-of-type {    
