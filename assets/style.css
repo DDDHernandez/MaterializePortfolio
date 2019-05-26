@@ -324,7 +324,7 @@ margin-top: 35px;
   background:linear-gradient(141deg, rgb(58, 58, 58) 25%, rgb(44, 44, 44) 40%, rgb(39, 39, 39) 55%);
   color:#ccc;
   font-family:'Roboto';
-  font-weight:300;
+  font-weight:340;
   font-size:40px;
   padding-top:20vh;
   height:50vh;
@@ -411,7 +411,6 @@ div.ShiningText p {
 
 .Jumbotron div {
   display:inline-block;
-  /* overflow:visible; */
   white-space:nowrap;
 }
 
