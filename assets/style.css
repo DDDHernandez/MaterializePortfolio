@@ -395,7 +395,7 @@ margin-top: 35px;
   background:linear-gradient(141deg, rgb(58, 58, 58) 25%, rgb(44, 44, 44) 40%, rgb(39, 39, 39) 55%);
   color:#ccc;
   font-family:'Roboto';
-  font-weight:600;
+  font-weight:580;
   font-size:40px;
   padding-top:30vh;
   height:85vh;
@@ -421,7 +421,7 @@ div.first-of-type {
 }
 
 div.last-of-type {
-  width:100px;
+  width:330px;
   animation: reveal 7s infinite;
 }
 
