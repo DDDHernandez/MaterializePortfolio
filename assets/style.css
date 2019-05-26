@@ -215,7 +215,7 @@ div.last-of-type span {
 }
 
   
-  div.ShiningText p {
+  div.ShiningText span {
     position: relative;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -403,14 +403,14 @@ margin-top: 35px;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0,0,0);
 }
-div.ShiningText p {
+div.ShiningText span {
     padding-top: 60px;
 }
 
 .Jumbotron div {
   display:inline-block;
   /* overflow:visible; */
-  white-space:normal;
+  white-space:nowrap;
 }
 
 div.first-of-type {    
