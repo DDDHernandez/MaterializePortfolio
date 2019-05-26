@@ -398,6 +398,8 @@ margin-top: 35px;
   padding-top:30vh;
   height:80vh;
   overflow: visible;
+  margin-left: -20px;
+  padding-left: -20px;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
   -webkit-transform: translate3d(0,0,0);
@@ -423,7 +425,7 @@ div.last-of-type {
 }
 
 div.last-of-type span {
-  margin-left: -20px;
+ 
   animation: slidein 7s infinite;
 }
 
