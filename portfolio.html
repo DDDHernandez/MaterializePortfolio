@@ -42,9 +42,16 @@
       </div>
     </nav>
   </div>
-
-
-  <br>
+  <div class="JumbotronPortfolio">
+  <div class="carousel carousel-slider">
+      <a class="carousel-item" href="https://actionsportsandgaming.herokuapp.com/"><img src="./assets/images/2019-05-06 (2).png"><div class="caption right-align"><h3>Action Sports And Gaming</h3></div></a>
+      <a class="carousel-item" href="https://dddhernandez.github.io/ClickyGame-/"><img src="./assets/images/2019-04-16.png"></a>
+      <a class="carousel-item" href="https://cryptic-ridge-26108.herokuapp.com/"><img src="./assets/images/2019-03-10.png"></a>
+      <a class="carousel-item" href="https://friendfinder0010.herokuapp.com/"><img src="./assets/images/2019-03-03.png"></a>
+      <a class="carousel-item" href="https://dddhernandez.github.io/WordGuessGame/"><img src="./assets/images/2019-01-07 (1).png"></a>
+    </div>
+  </div>
+    <br>
   <br>
   <br>
   <div class="container" id="PageContent">
@@ -96,7 +103,7 @@
     <div class="row">
       <div class="col xl6">
         <div class="card">
-          <a href="https://github.com/DDDHernandez/burger" id="cardTitle">
+          <a href="https://cryptic-ridge-26108.herokuapp.com/" id="cardTitle">
             <div class="card-image">
               <img class="image" src="./assets/images/2019-03-10.png">
           </a>
@@ -296,6 +303,13 @@
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>$(document).ready(function(){
+    $('.carousel').carousel();
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });});
+  </script>
 </body>
 
 </html>
