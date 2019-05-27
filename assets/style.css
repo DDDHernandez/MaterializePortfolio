@@ -520,7 +520,7 @@ p.Github a.Github {
 
 /* Portfolio Jumbotron */
 .JumbotronPortfolio {
-    margin-top: 50px;
+    margin-top: 80px;
     text-align:center;
     background:linear-gradient(141deg, rgb(45, 45, 45) 25%, rgb(34, 34, 34) 40%, rgb(22, 22, 22) 55%);
     color:#ccc;
