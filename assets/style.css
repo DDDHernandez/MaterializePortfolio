@@ -19,6 +19,10 @@ ul.left {
     padding: 0px 0px 0px 50px;
 }
 
+.container {
+    width: 100%;
+}
+
 /* Overview Container styling */
 #PageContent {
     border: 1px solid black;
