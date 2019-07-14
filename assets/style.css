@@ -42,7 +42,7 @@ div#contentStyling {
 }
 
 div#OverviewText p.flow-text {
-    font-family: 'Roboto';
+    font-family: 'Exo 2', sans-serif;;
     font-size: 1.8rem;
 }
 /* Overview contact Info */
@@ -57,7 +57,7 @@ div#OverviewText p.flow-text {
     position: relative;
     float: left;
     width:220px; 
-    height:160px;
+    height:300px;
     border:0 10;
      padding: 5 20;
      margin-right: 5%;
@@ -192,7 +192,7 @@ margin-top: 15px;
   font-weight:300;
   font-size:2.6rem;
   padding-top:45vh;
-  height:120vh;
+  height:118vh;
   overflow:hidden;
   -webkit-backface-visibility: hidden;
   -webkit-perspective: 1000;
@@ -325,6 +325,7 @@ div.last-of-type span {
     }
     nav a.brand-logo {
         font-size: 2.5rem;
+        font-family: 'Noto Sans', sans-serif;;
     }
     nav ul a {
         font-size: 1.9rem;
